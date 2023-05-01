@@ -2,24 +2,6 @@ const form = document.querySelector(".login-form");
 
 form.addEventListener("submit", handleFormSubmit);
 
-// function handleFormSubmit(event) {
-//   event.preventDefault();
-//   const formElements = event.currentTarget.elements;
-
-//   if (
-//     formElements.email.value == "" ||
-//     formElements.password.value == ""
-//   ) {
-//     alert("Всі поля повинні бути заповнені");
-//   } else {
-//     const formDataObj = {};
-//     formDataObj.email = formElements.email.value;
-//     formDataObj.password = formElements.password.value;
-//     console.log(formDataObj);
-//     event.currentTarget.reset();
-//   }
-// }
-
 function handleFormSubmit(event) {
   event.preventDefault();
   const formElements = event.currentTarget.elements;
